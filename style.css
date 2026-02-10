@@ -105,8 +105,7 @@ section {
   border-radius: 6px;
   border: none;
   cursor: pointer;
-
-  /* START BLUE */
+  
   background: linear-gradient(145deg, #957A69, #705849 60%, #3b281c);
   box-shadow:
     0 4px 10px rgba(0,0,0,0.4),
@@ -179,7 +178,7 @@ section {
 
 footer {
   padding: 30px;
-  background: #0a0f1f;
+  background: #957A69;
 }
 
 /* Mobile */
@@ -287,7 +286,7 @@ footer {
 
 footer {
   padding: 30px;
-  background: #0a0f1f;
+  background: #957A69;
 }
 
 /* Mobile */
