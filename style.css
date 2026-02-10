@@ -11,7 +11,7 @@ html {
 
 body {
   background: linear-gradient(#130F0D,#957A69, #363231);
-  color: #f5f7fa;
+  color: #f3eee9; /* was #f5f7fa (cool) */
   line-height: 1.6;
 }
 
@@ -39,7 +39,7 @@ nav ul {
 }
 
 nav a {
-  color: white;
+  color: #f3eee9; /* was white */
   text-decoration: none;
 }
 
@@ -51,15 +51,12 @@ nav a {
 
 .hero {
   min-height: 100vh;
-  padding-top: 80px;
   display: flex;
   flex-direction: column;
   justify-content:space-between;
   align-items:normal;
   text-align: center;
 }
-
-
 
 section {
   padding: 90px 10%;
@@ -99,16 +96,16 @@ section {
   position: relative;
   margin-top: 20px;
   padding: 12px 30px;
-  color: #eaf2ff;
+  color: #f3eee9; /* was #eaf2ff */
   font-weight: 600;
   text-decoration: none;
   border-radius: 6px;
   border: none;
   cursor: pointer;
-  
+
   background: linear-gradient(145deg, #957A69, #705849 60%, #3b281c);
   box-shadow:
-    0 4px 10px rgba(0,0,0,0.4),
+    0 4px 10px rgba(40,25,18,0.5),
     inset 0 2px 4px rgba(255,255,255,0.3),
     inset 0 -3px 6px rgba(0,0,0,0.25);
 
@@ -117,18 +114,16 @@ section {
 }
 
 .platforms a:hover {
-  color: #0a0f1f;
+  color: #1a1411; /* was #0a0f1f */
 
-  /* CHANGE TO YELLOW */
   background: linear-gradient(145deg, #ffd36b, #f5b942 60%, #d99c2b);
 
   transform: translateY(-2px);
   box-shadow:
-    0 6px 14px rgba(0,0,0,0.5),
+    0 6px 14px rgba(40,25,18,0.6),
     inset 0 2px 5px rgba(255,255,255,0.6),
     inset 0 -3px 6px rgba(0,0,0,0.25);
 }
-
 
 .platforms a::before {
   content: "";
@@ -159,12 +154,9 @@ section {
 .platforms a:active {
   transform: translateY(1px);
   box-shadow:
-    0 2px 6px rgba(0,0,0,0.4),
+    0 2px 6px rgba(40,25,18,0.5),
     inset 0 2px 4px rgba(0,0,0,0.3);
 }
-
-
-
 
 .mission-text {
   max-width: 700px;
@@ -178,7 +170,7 @@ section {
 
 footer {
   padding: 30px;
-  background: #957A69;
+  background: #1a1411; /* was blue-black */
 }
 
 /* Mobile */
@@ -186,14 +178,14 @@ footer {
 
   nav {
     height: 70px;
-   }
+  }
   
   nav ul {
     display: none;
     flex-direction: column;
-    background: #0a0f1f;
+    background: #1a1411; /* was #0a0f1f */
     position: absolute;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    box-shadow: 0 10px 25px rgba(40,25,18,0.6);
     top: 70px;
     right: 0;
     width:100%;
@@ -201,7 +193,8 @@ footer {
     transition: all 0.3s ease;
     padding: 20px;
   }
-    nav ul li {
+
+  nav ul li {
     padding: 10px 0;
   }
 
@@ -209,7 +202,7 @@ footer {
     display: flex;
   }
 
-   section {
+  section {
     padding: 70px 6%;
   }
 
@@ -221,12 +214,12 @@ footer {
     background-size: cover;
     background-position: center;
   }
-
-
 }
-.h{
-    color:black;
+
+.h {
+  color: #1a1411;
 }
+
 .sub-header {
   min-height: 100vh;
   background-image: url("Banner_2.jpg");
@@ -242,113 +235,4 @@ footer {
   max-width: 700px;
   border-radius: 8px;
   text-align: left;
-}
-  width: 50%;
-  height: 100%;
-  background: linear-gradient(
-    120deg,
-    rgba(255,255,255,0.7),
-    rgba(255,255,255,0.25),
-    transparent
-  );
-  transform: skewX(-20deg);
-}
-
-.platforms a:hover::before {
-  animation: shine 0.8s ease forwards;
-}
-
-@keyframes shine {
-  to {
-    left: 130%;
-  }
-}
-
-.platforms a:active {
-  transform: translateY(1px);
-  box-shadow:
-    0 2px 6px rgba(0,0,0,0.4),
-    inset 0 2px 4px rgba(0,0,0,0.3);
-}
-
-
-
-
-.mission-text {
-  max-width: 700px;
-  margin: auto;
-  font-size: 1.1rem;
-}
-
-.hidden {
-  display: none;
-}
-
-footer {
-  padding: 30px;
-  background: #957A69;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-
-  nav {
-    height: 70px;
-   }
-  
-  nav ul {
-    display: none;
-    flex-direction: column;
-    background: #0a0f1f;
-    position: absolute;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
-    top: 70px;
-    right: 0;
-    width:100%;
-    text-align:center;
-    transition: all 0.3s ease;
-    padding: 20px;
-  }
-    nav ul li {
-    padding: 10px 0;
-  }
-
-  nav ul.show {
-    display: flex;
-  }
-
-   section {
-    padding: 70px 6%;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-
-  .sub-header {
-    background-size: cover;
-    background-position: center;
-  }
-
-
-}
-.h{
-    color:black;
-}
-.sub-header {
-  min-height: 100vh;
-  background-image: url("Banner_2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
-.devotion {
-  background: rgba(255,255,255,0.05);
-  padding: 25px;
-  margin: 25px auto;
-  max-width: 700px;
-  border-radius: 8px;
-  text-align: left;
- /* text-justify: inter-word;*/
 }
