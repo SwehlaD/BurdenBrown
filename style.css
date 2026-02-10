@@ -11,7 +11,7 @@ html {
 
 body {
   background: linear-gradient(#130F0D,#957A69, #363231);
-  color: #f3eee9; /* was #f5f7fa (cool) */
+  color: #130F0D; /* was #f5f7fa (cool) */
   line-height: 1.6;
 }
 
@@ -170,7 +170,7 @@ section {
 
 footer {
   padding: 30px;
-  background: #140f0d; /* was blue-black */
+  background: #130F0D; /* was blue-black */
 }
 
 /* Mobile */
