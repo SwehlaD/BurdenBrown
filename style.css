@@ -63,7 +63,7 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content:space-between;
-  align-items:normal;
+  align-items: center;
   text-align: center;
 }
 
@@ -226,10 +226,9 @@ footer {
   }
 
   .sub-header {
-    min-height: auto; /* adjust height */
-    background-image: url("MobileBanner.jpeg"); /* mobile version */
-    background-size: 100% ; /* fill width, scale height */
-    background-position: center top; /* keep shield visible */
+  background-image: url("MobileBanner.jpeg");
+  background-size: cover;
+  background-position: center;
 }
 }
 
