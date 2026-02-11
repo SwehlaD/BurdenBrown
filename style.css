@@ -230,7 +230,8 @@ footer {
     background-size: contain;
     background-position: center top;
     height: 60vh; /* shrink height on mobile */
-  }
+    width: 100%;
+}
 }
 
 .h {
