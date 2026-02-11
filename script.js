@@ -63,7 +63,4 @@ window.addEventListener("scroll", () => {
   }
 });
 
-const header = document.querySelector(".sub-header");
-if (window.innerWidth <= 768) {
-  header.style.backgroundImage = "url('MobileBanner.jpeg')";
-}
+updateGradient();
