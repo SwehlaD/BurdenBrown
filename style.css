@@ -55,6 +55,7 @@ nav a {
   display: none;
   font-size: 1.6rem;
   cursor: pointer;
+  color:#ffd36b;
 }
 
 .hero {
@@ -201,10 +202,8 @@ footer {
     flex-direction: column;
     background: #1a1411; /* was #0a0f1f */
     position: absolute;
-    box-shadow: 0 10px 25px rgba(40,25,18,0.6);
     top: 70px;
-    right: 0;
-    width:100%;
+    left: 0;
     text-align:center;
     transition: all 0.3s ease;
     padding: 20px;
@@ -227,10 +226,10 @@ footer {
   }
 
   .sub-header {
-    background-size: contain;
-    background-position: center top;
-    height: 60vh; /* shrink height on mobile */
-    width: 100%;
+    min-height: auto; /* adjust height */
+    background-image: url("MobileBanner.jpeg"); /* mobile version */
+    background-size: 100% ; /* fill width, scale height */
+    background-position: center top; /* keep shield visible */
 }
 }
 
