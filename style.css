@@ -227,8 +227,9 @@ footer {
   }
 
   .sub-header {
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: center top;
+    height: 60vh; /* shrink height on mobile */
   }
 }
 
