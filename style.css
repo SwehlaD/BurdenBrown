@@ -213,11 +213,9 @@ footer {
   }
 
   .sub-header {
-  background-image: url("HRBanner.png");
-
-  background-size: contain;
-  background-position: center;
-}
+    background-size: 75% auto;
+    min-height: 140px;
+  }
 }
 
 .h {
@@ -226,7 +224,7 @@ footer {
 
 .sub-header {
   height: 100vh;
-  background-color: #130F0D;        /* fallback color behind image */
+  background-color: #130F0D;        
   background-image: url("HRBanner.png");
   background-repeat: no-repeat;
   background-position: top center;
