@@ -10,38 +10,46 @@ html {
 }
 
 body {
-  background: linear-gradient(#130F0D,#957A69, #363231);
+  background: none;
   color: #191410; /* was #f5f7fa (cool) */
   line-height: 1.6;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 10%;
+#bg {
   position: fixed;
-  width: 100%;
-  background: rgba(0,0,0,0.4);
-  backdrop-filter: blur(6px);
-  z-index: 1000;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(#130F0D, #1a1310, #211816);
 }
 
-.logo {
-  font-weight: 600;
-  letter-spacing: 2px;
+
+nav {
+  display: flex;
+  justify-content: flex-start; /* everything aligned left */
+  align-items: center;         /* vertical centering */
+  padding: 20px 5%;            /* left/right padding */
+  position: fixed;
+  width: 100%;
+  background: rgba(0,0,0,0.3); /* lighter fixed banner */
+  backdrop-filter: blur(6px);
+  z-index: 1000;
+  gap: 40px;                   /* spacing between links */
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 25px;                    /* space between links */
+  margin: 0;                    /* remove default ul spacing */
+  padding: 0;
 }
 
 nav a {
-  color: #f3eee9; /* was white */
+  color: #ffd36b;
   text-decoration: none;
+  font-weight: bold;
 }
+
 
 .menu-toggle {
   display: none;
@@ -59,8 +67,15 @@ nav a {
 }
 
 section {
+  color:#f3eee9;
   padding: 90px 10%;
   text-align: center;
+  background: linear-gradient(
+    to bottom,
+    #1a1411,
+    #2a211d
+  );
+  transition: 0.25s linear;
 }
 
 .grid {
@@ -71,13 +86,13 @@ section {
 }
 
 .card {
-  background: rgba(255,255,255,0.05);
+  background: rgba(20,15,13,0.85);;
   padding: 20px;
   border-radius: 8px;
 }
 
 .release-card {
-  background: rgba(255,255,255,0.05);
+  background: rgba(20,15,13,0.85);
   padding: 25px;
   margin: 25px auto;
   max-width: 600px;
@@ -158,7 +173,7 @@ section {
     inset 0 2px 4px rgba(0,0,0,0.3);
 }
 
-.mission-text {
+.text {
   max-width: 700px;
   margin: auto;
   font-size: 1.1rem;
@@ -169,6 +184,7 @@ section {
 }
 
 footer {
+  color:#f3eee9;
   padding: 30px;
   background: #140f0d; /* was blue-black */
 }
@@ -221,18 +237,26 @@ footer {
 }
 
 .sub-header {
-  min-height: 100vh;
+  height: 100vh;
   background-image: url("Banner_2.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
+
 .devotion {
-  background: rgba(255,255,255,0.05);
+  background: rgba(20, 15, 13, 0.88);
+  color: #f5efe9;
   padding: 25px;
   margin: 25px auto;
   max-width: 700px;
   border-radius: 8px;
   text-align: left;
+}
+
+.devotion h1,
+.devotion h2,
+.devotion h3 {
+  color: #ffd36b;
 }
