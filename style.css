@@ -223,11 +223,11 @@ footer {
 }
 
 .sub-header {
-  height: 110vh;
+  height: 100vh;
   background-color: #130F0D;        
-  background-image: url("Banner16_9.png");
+  background-image: url("Banner16_9short.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center bottom;
   background-size: cover;
 }
 
