@@ -228,10 +228,9 @@ footer {
   height: 100vh;
   background: url("Banner_2.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
   background-size: contain;
   width: 100%;
-  height:auto;
 }
 
 
