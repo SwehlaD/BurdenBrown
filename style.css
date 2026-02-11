@@ -213,7 +213,7 @@ footer {
   }
 
   .sub-header {
-  background-image: url("MobileBanner.jpeg");
+  background-image: url("HRBanner.png");
 
   background-size: contain;
   background-position: center;
@@ -227,7 +227,7 @@ footer {
 .sub-header {
   height: 100vh;
   background-color: #130F0D;        /* fallback color behind image */
-  background-image: url("Banner_2.jpg");
+  background-image: url("HRBanner.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
