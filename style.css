@@ -226,11 +226,11 @@ footer {
 
 .sub-header {
   height: 100vh;
-  background: url("Banner_2.jpg");
+  background-color: #130F0D;        /* fallback color behind image */
+  background-image: url("Banner_2.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  width: 100%;
 }
 
 
