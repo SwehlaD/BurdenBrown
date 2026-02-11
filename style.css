@@ -228,7 +228,7 @@ footer {
   background-image: url("Banner16_9.png");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  background-size: contain;
 }
 
 
