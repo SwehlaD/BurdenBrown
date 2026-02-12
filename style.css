@@ -101,14 +101,13 @@ nav a:hover {
 .hero-lettering h1 {
   font-size: clamp(1.8rem, 4vw, 3.5rem);
   font-family: 'Cormorant Garamond', serif;
-  margin-bottom: 0px;
+  margin-bottom: 3px;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
 .hero-lettering p {
-   align-content: center top;
   font-size: clamp(1rem, 4vw, 1.5rem);
   color: #f3eee9;
   font-weight: 400;
