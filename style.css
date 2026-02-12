@@ -92,7 +92,7 @@ nav a:hover {
 
 .hero-lettering {
   font-family: 'Cormorant Garamond', serif; /* Hero font */
-  color: #c45211;
+  color: #f3eee9;
   text-align: center;
   max-width: 90%;
   width: 60vw;
@@ -100,6 +100,7 @@ nav a:hover {
 
 .hero-lettering h1 {
   font-size: clamp(1.8rem, 4vw, 3.5rem);
+  font-family: 'Cormorant Garamond', serif;
   margin-bottom: 3px;
   font-weight: 600;
   letter-spacing: 0.08em;
