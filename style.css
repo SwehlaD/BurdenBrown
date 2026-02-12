@@ -77,7 +77,7 @@ nav a:hover {
    Hero Section
 =========================== */
 .sub-header {
-  height: 90vh;
+  height: 100vh;
   background-color: #130F0D;        
   background-image: url("banner_BM.jpg");
   background-repeat: no-repeat;
