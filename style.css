@@ -76,10 +76,22 @@ nav a:hover {
 /* ===========================
    Hero Section
 =========================== */
-.sub-header {
+.sub-header-home {
   height: 100vh;
   background-color: #130F0D;        
   background-image: url("banner_BM.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 40px;
+}
+.sub-header {
+  height: 100vh;
+  background-color: #130F0D;        
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
