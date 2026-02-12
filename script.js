@@ -18,7 +18,7 @@ function updateGradient() {
 
   const dark = { r: 18, g: 18, b: 18 };
 
-  const top    = { r: 27,  g: 18,  b: 13 };  // rgb(27, 18, 13)
+  const top    = { r: 74,  g: 46,  b: 29 };  // rgb(74, 46, 29)
   const middle = { r:  74, g: 46, b:29 };  // light brown rgb(74, 46, 29)
   const bottom = { r:149,  g: 122,  b: 105  };  // #363231
 
